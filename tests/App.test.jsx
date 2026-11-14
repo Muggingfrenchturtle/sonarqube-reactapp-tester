@@ -11,7 +11,7 @@ test('renders the title and result', () => {
 test('labels a passing score', () => {
   expect(resultLabel(85)).toBe('Passed');
 });
-/*
+//VVV added VVV
 test('labels a score below the pass mark', () => {
   expect(resultLabel(74)).toBe('Needs improvement');
 });
@@ -24,4 +24,4 @@ test('rejects a negative score', () => {
 test('rejects a score above 100', () => {
   expect(resultLabel(101)).toBe('Invalid score');
 });
-*/
+
